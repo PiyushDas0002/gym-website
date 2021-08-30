@@ -1,0 +1,182 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar{
+    
+    text-align: center;
+}
+.navbar ul{
+  display: inline-flex;
+  list-style: none;
+}
+.navbar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: rgb(204, 41, 0);
+}
+.logo{
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+.navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color: crimson;
+}
+h2{
+    text-align: center;
+    margin: 50px;
+    padding: 50px
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 31%;
+    background-color: brown;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    padding: 23px 12px;
+    margin: 14px 8px;
+    box-sizing: border-box;
+}
+.img2{
+    width: 42%;
+    padding: 8px 70px;
+    float: left;
+}
+.description{
+    
+    margin: 180px auto;
+    /* float: right; */
+    /* padding: 113px 101px; */
+    display: flex;
+    font-size: larger;
+    font-family: system-ui; 
+}
+.fee{
+text-align: center;
+padding: 170px 0px;
+font-size: xx-large;
+text-decoration: underline;
+}
+.feestructure{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.feerow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.fees{
+    flex-basis: 31%;
+    background-color: brown;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    padding: 23px 12px;
+    margin: 14px 8px;
+    box-sizing: border-box;
+}
+.under{
+    text-decoration: underline;
+}
+.class{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.classrow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.classpic{
+    flex-basis: 31%;
+    /* background-color: brown; */
+    /* border-radius: 40px; */
+    margin-bottom: 5%;
+    /* padding: 23px 12px; */
+    /* margin: 14px 8px; */
+    /* box-sizing: border-box;*/
+}
+.ourclasspic{
+    width: 108%;
+}
+.textclass{
+    font-size: xx-large;
+    /* border-radius: 18px; */
+    /* border: 53px; */
+    /* border-color: brown; */
+    /* display: grid; */
+    margin: -94px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.desclass{
+    padding: 73px 62px;
+    color: aliceblue;
+}
+.textclass,.ourclasspic:hover{
+    transform: scale(1.2);
+}
+.textclass a{
+    color: white;
+    font-size: 25px;
+}
+.timing{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.time{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.times{
+    flex-basis: 31%;
+    background-color: brown;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    padding: 29px 10px;
+    margin: 2px 11px;
+    box-sizing: border-box;
+}
+.about{
+    flex-basis: 31%;
+    background-color: brown;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    padding: 29px 10px;
+    margin: 2px 11px;
+    box-sizing: border-box;
+}
+.main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%
+}
